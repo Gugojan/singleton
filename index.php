@@ -4,7 +4,7 @@ require_once 'FileLog.php';
 require_once 'Log.php';
 ////$log = new \ocp\DBLog();
 FileLog::log('Start logs');
-//$log = FileLog::getInstance();
+$log = FileLog::getInstance();
 //$prod = new Product($log);
 //$prod->setPrice(120);
 
