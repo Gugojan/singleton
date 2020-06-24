@@ -3,7 +3,7 @@ require_once 'Product.php';
 require_once 'FileLog.php';
 require_once 'Log.php';
 ////$log = new \ocp\DBLog();
-//FileLog::log('Start logs');
+FileLog::log('Start logs');
 //$log = FileLog::getInstance();
 //$prod = new Product($log);
 //$prod->setPrice(120);
