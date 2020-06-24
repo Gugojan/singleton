@@ -30,5 +30,5 @@ $log = FileLog::getInstance();
 //if($test1 === $test2){
 //    echo 'The same instance';
 //}else{
-//    echo 'Not the same instance';
+   echo 'Not the same instance';
 //}
