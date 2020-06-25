@@ -8,6 +8,5 @@ class DBLog extends Log
     public function log($message)
     {
         $this->writeToDb($message);
-        $res = "8 stash";
     }
 }
